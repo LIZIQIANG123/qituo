@@ -1,0 +1,660 @@
+﻿
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>镇江齐拓智能科技有限公司 | 大数据 | 现场服务管理系统 | 软件定制 | 企业微信 | App | Web</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link href="Content/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/CSS/public.css" rel="stylesheet" />
+    <link href="Content/CSS/ac-globalnav.built.css" rel="stylesheet" />
+    <style>
+        img {
+            margin: 0 auto;
+        }
+        /*电脑端*/
+        * {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .tab {
+            display: table;
+            width: 100%;
+            height: 100%;
+        }
+
+        .wenzijuzhong {
+            text-align: center;
+        }
+
+        .bg-fei {
+            background: rgba(255,255,255,1);
+        }
+
+        .color-black {
+            color: #000000;
+        }
+
+        @media screen and (min-width: 992px) {
+            .Pcdisplay {
+                display: none;
+            }
+
+            .bg1 {
+                background-position: 16%;
+            }
+
+            .mb-2 {
+                margin-bottom: 20px;
+            }
+
+            .h-30 {
+                height: 300px;
+            }
+
+            #index_Banner {
+                padding-top: 63px;
+            }
+
+            .center {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .list-kehu {
+                height: 10rem;
+                line-height: 10rem;
+            }
+
+            .juxia {
+                padding-bottom: 2rem;
+                padding-top: 2rem;
+            }
+
+            .imgheight {
+                height: 120px;
+            }
+
+            .height {
+                height: 100%;
+            }
+
+            #p {
+                padding-top: 180px;
+            }
+
+            .yi {
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+            }
+
+            .yun {
+                margin-top: 20px;
+            }
+
+            .kuang {
+                height: 44px;
+            }
+
+
+            .margintop {
+                margin-top: 30px;
+            }
+
+            .gangwei {
+                margin-top: 10px;
+            }
+
+            .mokuai {
+                margin-top: 40px;
+            }
+        }
+
+        /*pc端*/
+
+        @media (min-width:768px) and (max-width:991px) {
+            .ipaddisplay, .Pcdisplay {
+                display: none;
+            }
+
+            .bg1 {
+                background-position: 7%;
+            }
+
+            .mb-2 {
+                margin-bottom: 20px;
+            }
+
+            .h-30 {
+                height: 250px;
+            }
+
+            .center {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #index_Banner {
+                padding-top: 63px;
+            }
+
+            .banner {
+                width: 100%;
+            }
+
+            .height {
+                height: 100%;
+            }
+
+            .yi {
+                margin-bottom: 2rem;
+            }
+
+            .height {
+                justify-content: center;
+            }
+
+            .height {
+                display: flex;
+                align-items: center;
+            }
+
+            .imgheight {
+                height: 144px;
+            }
+
+            .list-kehu {
+                padding-top: 10px;
+                line-height: 6rem;
+            }
+
+            #p {
+                padding-top: 85px;
+            }
+
+            #minglu {
+                margin-top: 40px;
+            }
+
+            .juxia {
+                margin-bottom: 4rem;
+            }
+
+            #img {
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+
+            .yun {
+                margin-top: 2rem;
+            }
+
+            .kuang {
+                height: 20px;
+            }
+        }
+        /*手机端*/
+
+        @media (max-width:767px) {
+            .apppading1 {
+                padding: 50px 0;
+            }
+
+            #customiz .container {
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
+
+            .appfont {
+                font-size: 28px;
+                margin-bottom: 20px;
+                margin-top: 0;
+            }
+
+            .appdisplay {
+                display: none;
+            }
+
+            .appcenter {
+                display: flex;
+                align-items: center;
+            }
+
+            .img-size-1 {
+                width: 220px;
+            }
+
+            .m-20 {
+                margin: 20px 0;
+            }
+
+            #index_Banner {
+                padding-top: 48px;
+            }
+
+            .height {
+                display: flex;
+                align-items: center;
+            }
+
+            .height {
+                justify-content: center;
+            }
+
+            .imgheight {
+                height: 80px;
+            }
+
+            .kuang {
+                height: 20px;
+            }
+
+
+            .height {
+                height: 100%;
+            }
+
+            .list-kehu {
+                padding-top: 10px;
+                line-height: 6rem;
+            }
+
+            .yi {
+                margin: 2rem 0;
+            }
+
+            .bg {
+                margin-top: 48px;
+            }
+
+            h5 {
+                margin-bottom: 18px;
+            }
+
+            #img img {
+                height: 174px;
+                margin: 2rem 0;
+            }
+
+            .juxia {
+                margin-bottom: 2rem;
+            }
+
+            .kuang {
+                height: 15px;
+            }
+
+            .io {
+                padding-top: 10px;
+            }
+
+            .pianxia {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?f39302bee3c0186c8324048e0c2c7b50";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+
+
+        window._pt_lt = new Date().getTime();
+        window._pt_sp_2 = [];
+        _pt_sp_2.push('setAccount,73be1e19');
+        var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        (function () {
+            var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true;
+            atag.src = _protocol + 'js.ptengine.cn/73be1e19.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(atag, s);
+        })();
+    </script>
+</head>
+<body>
+    <div id="title" class="navbar-fixed-top PC">
+        <div class="container">
+            <ul class="nav  nav-justified">
+                <li><a href="Index.html" id="bitlogo"><img style="width:80px;" src="Content/img/logo.png"></a></li>
+
+                <li><a href="Index.html">首页</a></li>
+                <li><a href="Bigdata.html">大数据</a></li>
+                <li><a href="PrecisionMarketing.html">现场服务管理</a></li>
+                <li><a href="SmallBusiness.html" class="action">小微云</a></li>
+                <li><a href="Customization.html">定制化</a></li>
+                <li><a href="AboutUs.html">关于我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="APP">
+        <input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate" />
+        <nav id="ac-globalnav" class="no-js center-block navbar-fixed-top" role="navigation" data-hires="false" data-analytics-region="global nav" lang="zh-CN" data-store-key="SFX9YPYY9PPXCU9KH" data-store-locale="cn" data-store-api="/[storefront]/shop/bag/status" data-search-locale="zh_CN" data-search-api="/search-services/suggestions/">
+            <div class="ac-gn-content">
+                <ul class="ac-gn-header">
+                    <li class="ac-gn-item ac-gn-menuicon " style="height:100%">
+                        <label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true">
+                            <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+                                <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+                            </span>
+                            <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+                                <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+                            </span>
+                        </label>
+                        <a href="Index.html"><img src="Content/img/logo.png" class="center-block" style="height:80%; position: absolute;left: 43%;top: 6px;" /></a>
+                    </li>
+                </ul>
+
+                <ul class="ac-gn-list">
+                    <li class="ac-gn-item ac-gn-item-menu ac-gn-mac nav_menu">
+                        <a class="ac-gn-link ac-gn-link-mac" href="Index.html">首页</a>
+                    </li>
+                    <li class="ac-gn-item ac-gn-item-menu ac-gn-mac nav_menu">
+                        <a class="ac-gn-link ac-gn-link-mac" href="Bigdata.html">大数据</a>
+                    </li>
+                    <li class="ac-gn-item ac-gn-item-menu ac-gn-ipad nav_menu">
+                        <a class="ac-gn-link ac-gn-link-ipad" href="PrecisionMarketing.html">现场服务管理</a>
+                    </li>
+                    <li class="ac-gn-item ac-gn-item-menu ac-gn-ipad nav_menu">
+                        <a class="ac-gn-link ac-gn-link-ipad" href="Customization.html">定制化</a>
+                    </li>
+                    <li class="ac-gn-item ac-gn-item-menu ac-gn-iphone nav_menu">
+                        <a class="ac-gn-link ac-gn-link-iphone" href="SmallBusiness.html">小微云</a>
+                    </li>
+                    <li class="ac-gn-item ac-gn-item-menu ac-gn-watch nav_menu">
+                        <a class="ac-gn-link ac-gn-link-watch" href="AboutUs.html">关于我们</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="index_Banner" class="lazyload banner2">
+        <div class="container" style="height:100%">
+            <div class="row bannerjuzhong col-sm-7">
+                <div class="col-sm-12 padding-0">
+                    <h1><span>齐拓</span><span style="color:aquamarine">小微云</span> </h1>
+                    <h3>让您的微信公众平台与众不同，多种工具与服务助您快速启动业务</h3>
+                    <div class="btn-center">
+                        <a class="btn-red button">了解详情</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 imgjuzhong">
+                <div class="imgbox">
+                    <img src="Content/img/Bannar/12.png" class="img-size-2" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row container apppading1">
+        <div class="h-30 center">
+            <div class="col-xs-12 col-sm-4 wenzijuzhong row center  m-20 appcenter ">
+                <div class="col-sm-4 col-xs-6">
+                    <img src="/Content/img/Smallbusiness/sell.png" class="img-responsive" alt="加载中" />
+                </div>
+                <div class="col-sm-8 col-xs-6 text-left">
+                    <h3 class="ft3 color-black line-height2">数据管理</h3>
+                    <h4 class="f2 ipaddisplay" style="color:#666666">海量数据，无限未来</h4>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 wenzijuzhong row center  m-20 appcenter">
+                <div class="col-sm-4 col-xs-6">
+                    <img src="/Content/img/Smallbusiness/Customer.png" class="img-responsive" alt="加载中" />
+                </div>
+                <div class="col-sm-8 col-xs-6 text-left">
+                    <h3 class="ft3 color-black line-height2">客户管理</h3>
+                    <h4 class="f2 ipaddisplay" style="color:#666666">海量数据，无限未来</h4>
+                </div>
+            </div>
+
+            <div class="col-xs-12  col-sm-4 wenzijuzhong center m-20 appcenter">
+                <div class="col-sm-4 col-xs-6">
+                    <img src="/Content/img/Smallbusiness/company.png" class="img-responsive" alt="加载中" />
+                </div>
+                <div class="col-sm-8 col-xs-6 text-left">
+                    <h3 class="ft3 color-black line-height2">公司管理</h3>
+                    <h4 class="f2 ipaddisplay" style="color:#666666">海量数据，无限未来</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="customiz" class="bg-fei mt-2 mb-2 appdisplay">
+        <div class="container" style="padding-left:0;padding-right:0">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 appabout">
+                    <div class="tab">
+                        <div class="tab-table-row">
+                            <div class="tab-table-cell">
+                                <h4 class="f4 mb-2 line-height3 color-black font-five appfont">关于小微云</h4>
+                                <h5 class="f1 line-height1" style="color:#333">齐拓自2004年成立以来，为诸多客户伙伴开发应用软件，竭尽全力确保这些软件项目顺利交付。<span class="appdisplay"><br /> <br /></span> 我们为客户定制开发应用软件，并越来越多地向客户分享我们的经验，帮助其打造成熟创新的。</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 app col-sm-6">
+                    <img src="Content/img/Smallbusiness/微信图片_20181116143922.jpg" class="img-responsive" />
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="promise">
+        <div class="container text-center " style="padding-top:0;padding-bottom:0">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6 juxia">
+                    <div style="background: rgba(247,252,252,1);height:100%" class="gaodu">
+                        <div style="width:80%; margin :0 auto">
+                            <h4 class="list-kehu f4 line-height3 font-five">客户列表</h4>
+                            <img src="/Content/img/Smallbusiness/kehuliebiao.png" style="width:100%" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6  juxia ">
+                    <div style="background: rgba(247,252,252,1);height:100%" class="gaodu">
+                        <div style="width:80%; margin :0 auto">
+                            <h4 class="list-kehu f4 line-height3 font-five">详细信息</h4>
+                            <img src="/Content/img/Smallbusiness/xiangxixinxi.png" style="width:100%" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6  juxia ">
+                    <div style="background: rgba(247,252,252,1);height:100%" class="gaodu">
+                        <div style="width:80%; margin :0 auto">
+                            <h4 class="list-kehu f4 line-height3 font-five">云端数据</h4>
+                            <img src="Content/img/Smallbusiness/微信图片_20181119132422.png" style="width:100%" />
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6 juxia ">
+                    <div style="background: rgba(247,252,252,1);height:100%" class="gaodu">
+                        <div style="width:80%; margin :0 auto">
+                            <h4 class="list-kehu f4 line-height3 font-five">自动分组</h4>
+                            <img src="/Content/img/Smallbusiness/zidongfenzu.jpg" style="width:100%" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="PC">
+        <div class="container">
+            <div class="row menu">
+                <div class="col-md-12">
+                    <ul class="nav-justified">
+                        <li>
+                            <ul class="list-unstyled">
+                                <li class="title f2"><a href="Bigdata.html">大数据</a></li>
+                                <li class="f1 "><a href="PrecisionMarketing.html">现场服务管理FSM</a></li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="list-unstyled">
+                                <li class="title  f2"><a href="Customization.html">服务</a></li>
+                                <!--<li class="f1 "><a href="Customization.html">定制开发</a></li>
+                                <li class="f1 "><a href="Customization.html">设计</a></li>
+                                <li class="f1 "><a href="Customization.html">运营</a></li>-->
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="list-unstyled">
+                                <li class="title f2"><a href="SmallBusiness.html">小微云</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="list-unstyled">
+                                <li class="title f2"><a href="AboutUs.html">关于齐拓</a></li>
+                                <li class="f1 "><a href="AboutUs.html#telus">联系齐拓</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="row" style="margin-top:10px;color:#666;">
+                <div class="col-md-6 col-sm-6 padding-0">
+                    <span class="f1">&copy; 2017 江苏齐拓</span>
+                </div>
+                <div class="col-md-6 col-sm-6 text-right padding-0">
+                    <span class="text-right f1">沪ICP备05051402</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="APP">
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <div class="panel-heading" role="tab" id="headingOne" onclick="gobottom()">
+                        <p class="panel-title text-left">
+                            大数据
+                            <span class="caret pull-right"></span>
+                        </p>
+                    </div>
+                </a>
+                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                        <ul class="list-unstyled">
+                            <li class="text-left"><a>现场服务管理FSM</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <div class="panel-heading" role="tab" id="headingTwo" onclick="gobottom()">
+                        <p class="panel-title text-left">
+                            服务
+                            <span class="caret pull-right"></span>
+                        </p>
+                    </div>
+                </a>
+                <!--<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                        <ul class="list-unstyled">
+                            <li class="text-left"><a>定制开发</a></li>
+                            <li class="text-left"><a>设计</a></li>
+                            <li class="text-left"><a>运营</a></li>
+                        </ul>
+                    </div>
+                </div>-->
+            </div>
+            <div class="panel panel-default">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <div class="panel-heading" role="tab" id="headingThree" onclick="gobottom()">
+                        <p class="panel-title text-left">
+                            小微云
+                            <span class="caret pull-right"></span>
+                        </p>
+                    </div>
+                </a>
+                <!--<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
+                        <ul class="list-unstyled">
+                            <li class="text-left"><a>成功案例</a></li>
+                            <li class="text-left"><a>客户伙伴</a></li>
+                        </ul>
+                    </div>
+                </div>-->
+            </div>
+            <div class="panel panel-default">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                    <div class="panel-heading" role="tab" id="headingfour" onclick="gobottom()">
+                        <p class="panel-title text-left">
+                            关于齐拓
+                            <span class="caret pull-right"></span>
+                        </p>
+                    </div>
+                </a>
+                <div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour">
+                    <div class="panel-body">
+                        <ul class="list-unstyled">
+
+                            <li class="text-left"><a href="AboutUs.html#telus">联系齐拓</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-7">
+                    <span style="font-size:10pt">&copy; 2017 江苏齐拓</span>
+                </div>
+                <div class="col-xs-5 text-right">
+                    <span style="font-size:10pt">沪ICP备05051402</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Content/JS/jquery-1.10.2.min.js"></script>
+    <script src="Content/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script src="Content/JS/sendEmail.js"></script>
+    <script src="Content/JS/hammer.min.js"></script>
+    <script>
+
+        function gobottom() {
+            //$('body').scrollTop($(' body')[0].scrollHeight);
+            $('html,body').animate({ scrollTop: $('body')[0].scrollHeight });
+        }
+
+        document.documentElement.style.height = window.innerHeight + 'px';
+        //滑动手势
+        var myElement = document.getElementById('carousel-example-generic');
+        var hm = new Hammer(myElement);
+        hm.on("swipeleft", function () {
+            $('#carousel-example-generic').carousel('next');
+        })
+        hm.on("swiperight", function () {
+            $('#carousel-example-generic').carousel('prev');
+        })
+    </script>
+    <script>
+
+        window.onload = function () {
+            if (document.documentElement.scrollHeight <= document.documentElement.clientHeight) {
+                bodyTag = document.getElementsByTagName('body')[0];
+                bodyTag.style.height = document.documentElement.clientWidth / screen.width * screen.height + 'px';
+            }
+            setTimeout(function () {
+                window.scrollTo(0, 1)
+            }, 0);
+        };
+    </script>
+</body>
+
+</html>

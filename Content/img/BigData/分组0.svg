@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-4.3529%" y1="90.2588%" x2="93.4553%" y2="17.7628%" id="linearGradient-1">
+            <stop stop-color="#D0021B" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#D0021B" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="100" height="100"></rect>
+            <g id="download" transform="translate(10.000000, 13.000000)" fill-rule="nonzero">
+                <rect id="Rectangle-path" stroke="#D0021B" stroke-width="2" fill="url(#linearGradient-1)" x="29.4736842" y="52.6315789" width="21.0526316" height="21.0526316"></rect>
+                <rect id="Rectangle-path" stroke="#D0021B" stroke-width="2" fill="#FFFFFF" x="25.2631579" y="0" width="29.4736842" height="21.0526316"></rect>
+                <polygon id="Rectangle-47" fill="#D0021B" points="42.1052632 18.9473684 42.1052632 42.1052632 37.8947368 42.1052632 37.8947368 18.9473684"></polygon>
+                <rect id="Rectangle-47" fill="#D0021B" transform="translate(40.000000, 31.578947) rotate(90.000000) translate(-40.000000, -31.578947) " x="37.8947368" y="0" width="4.21052632" height="63.1578947"></rect>
+                <polygon id="Rectangle-47" fill="#D0021B" points="12.6315789 29.4736842 12.6315789 42.1052632 8.42105263 42.1052632 8.42105263 29.4736842"></polygon>
+                <polygon id="Rectangle-47" fill="#D0021B" points="71.5789474 29.4736842 71.5789474 42.1052632 67.3684211 42.1052632 67.3684211 29.4736842"></polygon>
+                <polygon id="Rectangle-2" fill="#D0021B" transform="translate(40.000000, 42.105263) rotate(90.000000) translate(-40.000000, -42.105263) " points="35.7894737 37.8947368 40 37.8947368 44.2105263 42.1052632 40 46.3157895 35.7894737 46.3157895 40 42.1052632"></polygon>
+                <polygon id="Rectangle-2" fill="#D0021B" transform="translate(10.526316, 42.105263) rotate(90.000000) translate(-10.526316, -42.105263) " points="6.31578947 37.8947368 10.5263158 37.8947368 14.7368421 42.1052632 10.5263158 46.3157895 6.31578947 46.3157895 10.5263158 42.1052632"></polygon>
+                <polygon id="Rectangle-2" fill="#D0021B" transform="translate(69.473684, 42.105263) rotate(90.000000) translate(-69.473684, -42.105263) " points="65.2631579 37.8947368 69.4736842 37.8947368 73.6842105 42.1052632 69.4736842 46.3157895 65.2631579 46.3157895 69.4736842 42.1052632"></polygon>
+                <polygon id="Rectangle-path" stroke="#D0021B" stroke-width="2" fill="url(#linearGradient-1)" points="58.9473684 52.6315789 80 52.6315789 80 73.6842105 58.9473684 73.6842105"></polygon>
+                <rect id="Rectangle-path" stroke="#D0021B" stroke-width="2" fill="url(#linearGradient-1)" x="0" y="52.6315789" width="21.0526316" height="21.0526316"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

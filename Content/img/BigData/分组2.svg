@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#D0021B" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="100" height="100"></rect>
+            <g id="download" transform="translate(10.000000, 2.000000)">
+                <path d="M79.3103448,21.2372844 L40,0.948957131 L0.689655172,21.2372844 L0.689655172,59.0445141 C9.87979641,76.6735339 22.9432126,87.9555857 39.9424691,93.0005437 L40.0000396,93.0173277 L40.0479652,93.0033575 C57.0567083,87.9556088 70.1202029,76.6735342 79.3103448,59.0445141 L79.3103448,21.2372844 Z" id="Combined-Shape" stroke="#D0021B" stroke-width="3"></path>
+                <path d="M80,21.3584655 L40,38.5306739 L40,94.9307028 C57.4535599,89.929556 70.7868932,78.1364526 80,59.5513924 C80,50.2481119 80,37.5171363 80,21.3584655 Z" id="Rectangle-16" fill="url(#linearGradient-1)" fill-rule="nonzero" style="mix-blend-mode: darken;"></path>
+                <path d="M23.4482759,60.4479441 L56.5517241,60.4479441 L56.5517241,39.758289 L23.4482759,39.758289 L23.4482759,60.4479441 Z M19.3103448,35.6203579 L60.6896552,35.6203579 L60.6896552,64.5858752 L19.3103448,64.5858752 L19.3103448,35.6203579 Z" id="Rectangle-17" fill="#D0021B" fill-rule="nonzero"></path>
+                <path d="M31.7241379,35.6203579 C31.7241379,31.0497255 35.4293676,27.3444959 40,27.3444959 C44.5706324,27.3444959 48.2758621,31.0497255 48.2758621,35.6203579 L52.4137931,35.6203579 C52.4137931,28.7644092 46.8559486,23.2065648 40,23.2065648 C33.1440514,23.2065648 27.5862069,28.7644092 27.5862069,35.6203579 L31.7241379,35.6203579 Z" id="Oval-3" fill="#D0021B" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
